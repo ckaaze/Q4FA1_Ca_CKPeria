@@ -1,0 +1,107 @@
+/*This style works best using the Microsoft Edge browser. Output may vary depending on the browser.*/
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pagecontent{
+    margin: auto;
+    margin-top: 2vw;
+    width: 89.5vh;
+    padding: 0;
+}
+
+.signupsheet{
+    border: black solid 2px;
+    border-radius: 20px;
+    margin: auto;
+    margin-right: 4.5vh;
+    width: 30vh;
+    padding: 3vw;
+    float: left;
+}
+
+.signupsheet fieldset {
+    border: none;
+}
+
+#signup{
+    font-size: 13px;
+}
+
+#signup input{
+    border: black solid 2px;
+    border-radius: 12px;
+    padding: 6px;
+    height: 3vh;
+    width: 13.9vw;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+#signup textarea{
+    border: black solid 2px;
+    border-radius: 12px;
+    padding: 6px;
+    height: 9vh;
+    width: 13.9vw;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    overflow: visible;
+    scrollbar-width: none;
+    resize: none;
+}
+
+#address{
+    overflow-x: visible;
+    scrollbar-width: none;
+}
+
+#signup select{
+    border-radius: 10px;
+    margin-bottom: 12px;
+    padding: 3px;
+}
+
+#signupheader{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+#submitButton, #resetButton{
+    border: black solid 2px;
+    border-radius: 15px;
+    width: 14.9vw;
+    height: 2vw;
+    background-color: rgb(161, 149, 149);
+}
+
+#submitButton{
+    margin-bottom: 12px;
+}
+
+.information{
+    border:black solid 2px;
+    border-radius: 20px;
+    margin: auto;
+    width: 30vh;
+    height: 81vh;
+    padding: 3vw;
+    float: left;
+    font-size: 13.5px;
+}
+
+.information h1{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 12px;
+}
+
+.informationbox{
+    border: black solid 2px;
+    border-radius: 15px;
+    padding: 12px;
+    text-align: justify;
+}

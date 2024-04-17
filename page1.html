@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fouth Quarter - Formative Assessment 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="pagecontent">
+        <div class="signupsheet">
+            <form id="signUpForm" action="#">
+                <fieldset form="signup" id="signup">
+                    <legend id="signupheader">Sign Up</legend> <br>
+                    <label for="name">Name:</label> <br>
+                    <input type="text" name="name" id="name" onblur="blurInput()" onfocus="focusInput(this)" placeholder="Please input your name."> <br>
+
+                    <label for="userName">Username:</label> <br>
+                    <input type="text" name="userName" id="userName" onblur="blurInput()" onfocus="focusInput(this)" placeholder="Please input your preferred username."> <br>
+
+                    <label for="password">Password:</label> <br>
+                    <input type="password" name="password" id="password" onblur="blurInput()" onfocus="focusInput(this)" placeholder="Please input your password."> <br>
+
+                    <label for="gender">Gender:</label>
+                    <select name="gender" id="gender">
+                        <option value="Female">Female</option>
+                        <option value="Fale">Male</option>
+                        <option value="Prefer not to mention">Prefer not to mention</option>
+                    </select> <br>
+
+                    <label for="email">Email:</label> <br>
+                    <input type="email" name="email" id="email" onblur="blurInput()" onfocus="focusInput(this)" placeholder="Please input your email."> <br>
+
+                    <label for="Address">Address:</label> <br>
+                    <input type="text" name="address" id="address" onblur="blurInput()" onfocus="focusInput(this)" placeholder="Please input your address."> <br>
+
+                    <label for="userInterests">User's Interests: </label> <br>
+                    <textarea name="userInterests" id="userInterests" onblur="blurTextArea()" onfocus="focusInput(this)" cols="30" rows="10" placeholder="Use this space to create a short paragraph about your interests."></textarea> <br>
+
+                    <button onclick="return outputInformation();" type="submit" id="submitButton" value="Submit Form">Submit Form</button>
+                    <button type="reset" id="resetButton" value="reset" onclick="resetForm();">Reset Form</button>
+                </fieldset>
+            </form>
+        </div>
+
+        <div class="information">
+            <h1>Information</h1>
+            <div class="informationbox">
+                <p id="info">Information that you have inputted will be displayed here once you click submit.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
